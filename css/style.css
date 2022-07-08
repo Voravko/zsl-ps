@@ -11,7 +11,7 @@ body{
 }
 @font-face {
   font-family: "FontName"; 
-   src: url(../img/20806.ttf); 
+   src: url(../20806.ttf); 
    }
 
    .font
@@ -27,7 +27,12 @@ body{
   background-attachment: fixed;
   background-color: aquamarine;
 }
+.menu
+{
+  width: 100%;
+  overflow-x: hidden;
 
+}
 .block-black
 {
    position: relative;
@@ -58,7 +63,7 @@ margin: auto;
 @media  (min-width: 300px) and (max-width:500px)  {
   .main-text {
     padding-top: 200px;
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 @media  (min-width: 600px) and (max-width: 3000px)  {
@@ -70,7 +75,7 @@ margin: auto;
 @media  (min-width: 300px) and (max-width:500px)  {
   .discription
  {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 @media  (min-width: 600px) and (max-width: 3000px)  {
@@ -294,7 +299,7 @@ a.text{
 padding-left: 20%;
 padding-right: 20%;
 }
-@media (min-width: 700px) and (max-width: 1000px) {
+@media (min-width: 800px) and (max-width: 1000px) {
   .block-servesis {
     padding-left: 0%;
   padding-right: 0%;
@@ -302,10 +307,27 @@ padding-right: 20%;
 
 }
 
+
+.block-servesis1
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "FontName";
+padding-left: 10%;
+padding-right: 10%;
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .block-servesis1 {
+    padding-left: 0%;
+  padding-right: 0%;
+  }
+
+}
 .servesis-white
 {
   display: block;
-  width: 290px;
+  width: 320px;
   height: 350px;
   margin-top: 5%;
   position: relative;
@@ -316,10 +338,24 @@ padding-right: 20%;
  
 }
 
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .servesis-white {
+    width: 250px;
+    height: 335px;
+    top:10px;
+
+  }
+
+}
+
+
+
+
 .servesis-white-product
 {
   display: block;
-  width: 290px;
+  width: 390px;
   height: 400px;
   margin-top: 5%;
   position: relative;
@@ -327,6 +363,16 @@ padding-right: 20%;
   color: black;
   border: solid 2.5px black;
   margin-bottom: 3%;
+  
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .servesis-white-product {
+    margin-left: 26%;
+
+
+  }
+
 }
 
 
@@ -357,7 +403,7 @@ padding-right: 20%;
 .servesis-black
 {
   display: block;
-  width: 300px;
+  width: 330px;
   height: 350px;
   margin-top: 5%;
   position: relative;
@@ -433,7 +479,7 @@ padding-left: 10px;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-  width: 45%;
+  width: 44%;
   height: 100%;
 }
 
