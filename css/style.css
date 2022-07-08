@@ -11,7 +11,7 @@ body{
 }
 @font-face {
   font-family: "FontName"; 
-   src: url(../20806.ttf); 
+   src: url(../img/20806.ttf); 
    }
 
    .font
@@ -314,8 +314,8 @@ padding-right: 20%;
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: "FontName";
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 13%;
+padding-right: 13%;
 }
 @media (min-width: 800px) and (max-width: 1000px) {
   .block-servesis1 {
