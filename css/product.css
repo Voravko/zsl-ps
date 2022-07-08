@@ -1,0 +1,61 @@
+.card-products
+{
+    display: block;
+    width: 100%;
+    height: 1000px;
+    
+}
+.card-product
+{
+    display: block;
+    width: 90%;
+    height: 30%;
+    position: relative;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+}
+
+.card-product img{
+    width: 40%;
+    height: 100%;
+   display: inline;
+   
+}
+.card-product p{
+   display: inline;
+
+}
+.coll-text-about-us1
+{
+  display: block;
+ padding-top: 5%;
+  color: rgb(0, 0, 0);
+  font-family: "FontName";
+  font-size: 20px;
+}
+.text{
+    font-size: 12px;
+}
+.intresting-discription1
+{
+  display: flex;
+  width: 100%;
+  height: 450px;
+  border: solid 1px black;
+}
+
+.picture-about-us1
+{
+  display: flex;
+  background-image: url(img/oboi-komar-flowers-and-textures-8-938-concrete-blocks-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 45%;
+  height: 100%;
+}
+

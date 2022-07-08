@@ -1,0 +1,584 @@
+
+.blok1
+{
+  height: 200px;
+  width: 100%;
+  
+}
+body{
+  overflow-x: hidden;
+
+}
+@font-face {
+  font-family: "FontName"; 
+   src: url(../img/20806.ttf); 
+   }
+
+   .font
+   {
+    font-family: "FontName";
+   }
+.header-img
+{
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/Рисунок1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: aquamarine;
+}
+
+.block-black
+{
+   position: relative;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.246);
+   z-index: 99;
+   display: block;
+   margin-left: auto;
+}
+
+.container-text
+{
+display: block;
+color: aliceblue;
+text-align: center;
+display: block;
+width: 80%;
+padding-top: 20%;
+
+font-family: "FontName";
+margin: auto;
+}
+
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media  (min-width: 300px) and (max-width:500px)  {
+  .main-text {
+    padding-top: 200px;
+    font-size: 25px;
+  }
+}
+@media  (min-width: 600px) and (max-width: 3000px)  {
+  .main-text {
+    font-size: 45px;
+  }
+}
+
+@media  (min-width: 300px) and (max-width:500px)  {
+  .discription
+ {
+    font-size: 15px;
+  }
+}
+@media  (min-width: 600px) and (max-width: 3000px)  {
+  .discription
+ {
+    font-size: 25px;
+    
+  }
+}
+.font
+{
+  font-family: "FontName";
+}
+/* .about-us
+{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #141d2d;
+  display: flex;
+  
+}
+.about-us p 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-us-item
+{
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255);
+
+
+}
+
+.about-us-text
+{
+  color:white;
+  padding-top: 100%;
+  position: relative;
+  left: -55%;
+  font-size: 13px;
+}
+.about-us-text1
+{
+  color:white;
+  padding-top: 100%;
+  position: relative;
+  right: 85%;
+  font-size: 13px;
+} */
+
+
+
+.servesis
+{
+  display: block;
+  width: 450px;
+  height: 200px;
+  margin-top: 2%;
+  position: relative;
+  font-family: "FontName";
+  color: black;
+  margin-bottom: 3%;
+}
+
+.numbers
+{
+  font-size: 80px;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.line
+{
+  display: inline-block;
+  position: relative;
+  left: 9%;
+  bottom: 10%;
+  width: 1.5%;
+  background-color: black;
+  height: 30%;
+  transform: rotate(30deg) ;
+} 
+
+.servesis-text
+{
+  display: inline-block;
+  position: relative;
+  top: 0%;
+  margin-left: 5%;
+  width: 55%;
+
+}
+
+.block
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+.gallery {
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(5, 750px);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow: scroll;
+	height: 75vh;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 10px;
+}
+
+@media (min-width: 380px) and (max-width: 1161px) {
+  .gallery {
+    overflow-x:  scroll;
+  }
+
+}
+
+.active {
+	scroll-snap-type: unset;
+}
+
+.gallery li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+}
+
+.gallery-picture-one
+{
+ 
+  display: flex;
+  background-image: url(../img/IMG_20170515_084651.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  
+
+}
+.gallery-picture-two
+{
+  display: flex;
+  background-image: url(../img/IMG_20170515_084627.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.gallery-picture-three
+{
+  display: flex;
+  background-image: url(../img/IMG_20170515_084735.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.gallery-picture-four
+{
+  display: flex;
+  background-image: url(../img/fon3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.gallery-picture-five
+{
+  display: flex;
+  background-image: url(../img/IMG_20170515_084917.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+
+a.text:active, 
+a.text:hover, 
+a.text{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+.block-servesis
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "FontName";
+padding-left: 20%;
+padding-right: 20%;
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+  .block-servesis {
+    padding-left: 0%;
+  padding-right: 0%;
+  }
+
+}
+
+.servesis-white
+{
+  display: block;
+  width: 290px;
+  height: 350px;
+  margin-top: 5%;
+  position: relative;
+  font-family: "FontName";
+  color: black;
+  border: solid 2.5px black;
+  margin-bottom: 3%;
+ 
+}
+
+.servesis-white-product
+{
+  display: block;
+  width: 290px;
+  height: 400px;
+  margin-top: 5%;
+  position: relative;
+  font-family: "FontName";
+  color: black;
+  border: solid 2.5px black;
+  margin-bottom: 3%;
+}
+
+
+.product-img
+{
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+  
+  
+
+}
+.product-img img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.product-img :hover
+{
+  position: relative;
+  transition: 5s;
+  left: -4%;
+  top:-3%;
+  transition-duration: .5s;
+}
+
+.servesis-black
+{
+  display: block;
+  width: 300px;
+  height: 350px;
+  margin-top: 5%;
+  position: relative;
+  font-family: "FontName";
+  color: black;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 3%;
+}
+.servesis-point
+{
+display: block;
+color: black;
+font-size: 30px;
+margin-top: auto;
+text-align: center;
+
+}
+
+.colled-servises
+{
+font-size: 30px;
+text-align: center;
+
+}
+
+
+
+.colled-production
+{
+font-size: 25px;
+position: relative;
+text-align: left;
+margin-left: 10px;
+bottom: 10px;
+}
+.discription-servises
+{
+  display: block;
+font-size: 20px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+}
+
+.discription-servises-pr
+{
+  display: block;
+  position: relative;
+  font-size: 20px;
+  bottom: 7px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+.discription-servises-production
+{
+  display: block;
+  font-size: 22px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+.picture-about-us
+{
+  display: flex;
+  background-image: url(../img/IMG_20170515_084917.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 45%;
+  height: 100%;
+}
+
+.intresting-discription
+{
+  display: flex;
+  width: 100%;
+  height: 500px;
+
+
+  border: solid 1px black;
+}
+.huge-text-about-us
+{
+ display: block;
+
+  color: rgb(0, 0, 0);
+  font-family: "FontName";
+  padding-top: 3%;
+ 
+ font-size: 20px;
+
+
+
+}
+
+
+.coll-text-about-us
+{
+  display: block;
+ padding-top: 5%;
+  color: rgb(0, 0, 0);
+  font-family: "FontName";
+  font-size: 35px;
+}
+
+
+
+@media (min-width: 350px) and (max-width: 1000px) {
+  .picture-about-us {
+   display: none;
+  }
+  .huge-text-about-us
+  {
+    width: 100%;
+  }
+  .intresting-discription
+  {
+   display: none;
+
+  }
+
+}
+
+.footer
+{
+  display: flex;
+  width: 100%;
+  height:100px;
+  border-top: 1px solid black;
+  padding-top: 70px;
+  font-family: "FontName";
+
+
+}
+.contact
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;
+
+
+
+}
+.contact p
+{
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+.info
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  
+}
+.info p{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}

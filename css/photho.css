@@ -1,0 +1,26 @@
+.gallery-picture
+{
+ 
+  display: flex;
+  background-image: url(img/IMG_20170515_084651.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+.photo
+{
+  display: flex;
+  width: 95%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
