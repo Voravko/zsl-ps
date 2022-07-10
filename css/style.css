@@ -298,8 +298,8 @@ a.text{
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: "FontName";
-padding-left: 17%;
-padding-right: 17%;
+padding-left: 14%;
+padding-right: 14%;
 }
 @media (min-width: 800px) and (max-width: 1000px) {
   .block-servesis {
@@ -316,8 +316,8 @@ padding-right: 17%;
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: "FontName";
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 7%;
+padding-right: 7%;
 }
 @media (min-width: 800px) and (max-width: 1000px) {
   .block-servesis1 {
