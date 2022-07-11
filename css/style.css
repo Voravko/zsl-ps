@@ -35,7 +35,7 @@ body{
    position: relative;
    height: 100%;
    width: 100%;
-   background-color: rgba(0, 0, 0, 0.246);
+   background-color: rgba(0, 0, 0, 0.134);
    z-index: 99;
    display: block;
    margin-left: auto;
@@ -473,7 +473,7 @@ margin-right: auto;
 .picture-about-us
 {
   display: flex;
-  background-image: url(../img/IMG_20170515_084917.jpg);
+  background-image: url(../img/zdanie.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
